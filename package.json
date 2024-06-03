@@ -10,10 +10,16 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "d3": "^7.9.0",
+    "mammoth": "^1.7.2",
+    "pdfjs-dist": "^4.2.67",
+    "promise-file-reader": "^1.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-geogebra": "^1.2.5",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
   },
   "scripts": {
     "start": "react-scripts start",

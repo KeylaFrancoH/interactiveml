@@ -3,7 +3,8 @@ import React, { useState }  from 'react';
 import KMeansClustering from './components/KMeansClustering';
 import TextClassifier from './components/TextClassifier';
 import ImageClassifier from './components/ImageClassifier';
-
+import GeoGebraGraph from './components/GeoGebraGraph ';
+import KahootGame from './components/kahoot.js';
 //Para clustering
 //function App() {
 //  return (
@@ -17,13 +18,13 @@ import ImageClassifier from './components/ImageClassifier';
 //}
 
 //Para clasificación de textos
-//<TextClassifier texts={texts} labels={labels} />
+//<TextClassifier texts={texts} labels={labels}   <ImageClassifier />         <KahootGame />  <GeoGebraGraph /> />
 function App() {
   
   return (
     <div>
-      <ImageClassifier />
-      
+   
+   <GeoGebraGraph />
     </div>
   );
 }
