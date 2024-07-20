@@ -5,6 +5,7 @@ import TextClassifier from './components/TextClassifier';
 import ImageClassifier from './components/ImageClassifier';
 import GeoGebraGraph from './components/GeoGebraGraph ';
 import KahootGame from './components/kahoot.js';
+import MathEditor from './components/math.js';
 //Para clustering
 //function App() {
 //  return (
@@ -24,8 +25,9 @@ function App() {
   return (
     <div>
    
-   <GeoGebraGraph />
+     <MathEditor />
     </div>
+ 
   );
 }
 
